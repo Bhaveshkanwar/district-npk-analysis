@@ -6,7 +6,7 @@ import seaborn as sns
 
 df = pd.read_csv("/Users/bhaveshkanwar/Desktop/ICRISAT-District Level Data.csv")
 df.columns = df.columns.str.strip()  
-
+##$%^
 
 fertilizers = [
     'NITROGEN PER HA OF GCA (Kg per ha)',
