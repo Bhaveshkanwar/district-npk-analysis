@@ -14,7 +14,8 @@ fertilizers = [
     'POTASH PER HA OF GCA (Kg per ha)'
 ]
 
-
+#%$%SDdjebf,l;,;'
+# bfng
 df.dropna(subset=fertilizers, inplace=True)
 df['Total NPK (kg/ha)'] = df[fertilizers].sum(axis=1)
 
